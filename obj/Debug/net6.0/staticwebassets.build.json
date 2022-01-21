@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LTV5gqRuks6du82iu5BwA2pztW7VRhkjvaiVPd7I170=",
+  "Source": "security",
+  "BasePath": "_content/security",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

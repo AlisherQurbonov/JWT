@@ -1,0 +1,13 @@
+
+POST https://localhost:7121/api/account/login HTTP/1.1 
+content-type: application/json
+
+{
+    "username" : "Ali",
+    "password" : "12345"
+}
+
+###
+
+GET https://localhost:7121/api/secret/secret HTTP/1.1 
+Authorization: Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJBbGkiLCJyb2xlIjoidXNlciIsIm5iZiI6MTY0MjgzMjQ4MiwiZXhwIjoxNjQzNDM3MjgyLCJpYXQiOjE2NDI4MzI0ODIsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcyODQiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3Mjg0In0.e1kYuWEfnFM8l8uaHm1SuqOu2T40cMhjACfpwkQ8tCc
